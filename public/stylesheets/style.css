@@ -1,11 +1,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  align-items: center;
 }
 
 a {
@@ -13,7 +10,7 @@ a {
 }
 
 table {
-  width: 75%;
+  width: 55%;
 }
 
 table, tr, td, th {
@@ -29,3 +26,40 @@ tr, th, td {
 td {
   height: 50px;
 }
+
+label {
+  font-size: 1.5em;
+}
+
+input, label, select {
+  margin: 3%;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: center;
+}
+
+#options > section, #booking {
+  text-align: center;
+}
+
+#add-destination {
+  width: 55%;
+  text-align: center;
+}
+#add-destination form {
+  width: 50%;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
