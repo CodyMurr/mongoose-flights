@@ -1,8 +1,31 @@
 body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  align-items: center;
 }
 
 a {
   color: #00B7FF;
+}
+
+table {
+  width: 75%;
+}
+
+table, tr, td, th {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+tr, th, td {
+  width: 25%;
+  text-align: center;
+}
+
+td {
+  height: 50px;
 }
